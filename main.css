@@ -55,15 +55,31 @@ header ul li a{
     max-width: 600px;
 }
 .content .textBox h2{
-    color: #fff;
     font-size: 4em;
     line-height: 1.5em;
     font-weight: 900;
     text-transform: uppercase;
     font-family: 'Passion One', cursive;
+    font-size: 100px;
+    line-height: 110px;
+    margin-left: -10px;
+    color: transparent;
+    text-shadow: rgb(255, 255, 255) 0 0.0em 0.80em;
+    -webkit-text-stroke: 1px #fff;
+    background: url("/images/franjas.jpg");
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
 }
 .content .textBox h2 span{
     font-size: 2em;
+    text-shadow:  rgb(255, 255, 255) 0 0.0em 0.80em;
 }
 .content .textBox h4{
     color: #fff;
@@ -72,10 +88,14 @@ header ul li a{
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Passion One', cursive;
-
+    text-shadow:  rgb(255, 255, 255) 0 0.0em 0.80em;
 }
 .content .textBox p{
-    color: #fff;
+    color: #000000;
+    background-color: transparent;
+    text-shadow:  rgb(255, 255, 255) 0 0.0em 0.80em;
+    font-family: 'Passion One', cursive;
+    font-size: 20px;
 }
 .content .textBox a{
     display: inline-block;
